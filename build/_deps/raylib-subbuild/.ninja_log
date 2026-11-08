@@ -1,0 +1,21 @@
+# ninja log v6
+4381	4413	1794168746455244920	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	2c6e20a44335f2c3
+22	4288	1794168746331243041	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	4d45df6f2a048ec2
+4413	4437	1794168746479245283	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	468610163392a088
+4489	4521	1794168746563246555	/home/arthur/pong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	faf10602c71a2ac9
+1	22	1794168742067178432	/home/arthur/pong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	b7decb59ba87ac9e
+4413	4437	1794168746479245283	/home/arthur/pong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	468610163392a088
+22	4288	1794168746331243041	/home/arthur/pong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	4d45df6f2a048ec2
+4437	4463	1794168746507245707	/home/arthur/pong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	981e2423628af318
+4489	4521	1794168746563246555	/home/arthur/pong/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	faf10602c71a2ac9
+4489	4521	1794168746563246555	CMakeFiles/raylib-populate-complete	faf10602c71a2ac9
+4288	4333	1794168746375243707	/home/arthur/pong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	481214a9a569093a
+1	22	1794168742067178432	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	b7decb59ba87ac9e
+4463	4489	1794168746531246070	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	d2fe28e6210e754d
+4288	4333	1794168746375243707	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	481214a9a569093a
+4437	4463	1794168746507245707	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	981e2423628af318
+4333	4381	1794168746419244374	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	fc0c1de935e416d6
+4381	4413	1794168746455244920	/home/arthur/pong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	2c6e20a44335f2c3
+4333	4381	1794168746419244374	/home/arthur/pong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	fc0c1de935e416d6
+4489	4521	1794168746563246555	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	faf10602c71a2ac9
+4463	4489	1794168746531246070	/home/arthur/pong/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	d2fe28e6210e754d
