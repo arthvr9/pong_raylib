@@ -61,7 +61,7 @@ void drawRackets(float dt, vector<Paddle> &paddles)
     }
 }
 
-void drawBall(Ball &ball, float dt)
+void drawBall(Ball &ball, float dt, vector<Paddle> &paddles)
 {
     ball.pos = ball.pos + (ball.speed * dt);
 
@@ -75,6 +75,17 @@ void drawBall(Ball &ball, float dt)
     {
         ball.pos.y = h - ball.ray;
         ball.speed.y = -ball.speed.y;
+    }
+}
+
+void checkCollision(Ball &ball, Paddle paddle) {
+    if (CheckCollisionCircleRec(ball.pos, ball.ray, paddle.rec)) {
+        float paddleCenter = paddle.rec.y + paddle.rec.height / 2;
+
+        float offset = (ball.pos.y - paddleCenter) / (paddle.rec.height / 2);
+
+        ball.speed.x = -ball.speed.x * 1.05f;
+        ball.speed.y = offset * 50.0f;
     }
 }
 
@@ -104,8 +115,10 @@ void initGame()
         DrawRectangleRec(paddles[0].rec, WHITE);
         DrawRectangleRec(paddles[1].rec, WHITE);
         DrawCircleV(ball.pos, ball.ray, WHITE);
-        drawBall(ball, dt);
         drawRackets(dt, paddles);
+        checkCollision(ball, paddles[0]);
+        checkCollision(ball, paddles[1]);
+        drawBall(ball, dt, paddles);
         EndDrawing();
     }
 
@@ -114,6 +127,5 @@ void initGame()
 
 int main()
 {
-    cout << "hello world" << endl;
     initGame();
 }
